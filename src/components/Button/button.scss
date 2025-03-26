@@ -2,16 +2,13 @@
   padding: 10px 20px;
   border-radius: 20px;
   display: flex;
-  max-width: 160px;
+  max-width: min(160px, 100%);
   flex-grow: 1;
+  text-align: center;
   align-items: center;
   justify-content: center;
   background-color: var(--light-text-color);
   transition: .4s;
-
-  p {
-    font-weight: bold;
-  }
 
   &_custom {
     padding: 2px 10px;

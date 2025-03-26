@@ -7,7 +7,7 @@ import {
   hideLocalLoader,
 } from '../../redux/store/loader';
 import { useAppDispatch } from '../../redux/hooks';
-import Button from '../../components/Button/Button';
+import { Button } from '../../components/Button';
 
 const HomePage: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -31,19 +31,19 @@ const HomePage: React.FC = () => {
           custom
           onClick={localHandler}
         >
-          Локальный
+          Включить локальный лоадер
         </Button>
         <Button
           disabled
           onClick={globalHandler}
         >
-          Глобальный
+          Включить глобальный лоадер
         </Button>
         <Button
           style="secondary"
           onClick={globalHandler}
         >
-          Глобальный
+          Второстепенная
         </Button>
         <Button onClick={globalHandler}>Глобальный</Button>
         <Button
@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
           disabled
           onClick={globalHandler}
         >
-          Глобальный
+          Второстепенная дизэйблд
         </Button>
       </div>
     </div>
