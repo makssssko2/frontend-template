@@ -1,6 +1,5 @@
 .HomePage {
   display: flex;
-  width: 500px;
   flex-direction: column;
   column-gap: 40px;
   padding: 20px;
@@ -8,17 +7,8 @@
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
-  }
-  &__button {
-    padding: 5px 20px;
-    box-shadow: 0 0 0 2px #000;
-    border-radius: 25px;
-    transition: .3s;
-
-    &:hover {
-      background-color: #5a23a0;
-      color: #FFF;
-      box-shadow: 0 0 0 2px #FFF;
-    }
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
   }
 }
