@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
           disabled
           onClick={globalHandler}
         >
-          Второстепенная дизэйблд
+          Второстепенная дизэйбл
         </Button>
       </div>
     </div>
